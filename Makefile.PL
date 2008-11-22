@@ -12,7 +12,7 @@ WriteMakefile(
         'Test::More'                        => 0,
         'CGI::Application'                  => 4,
         'CGI::Application::Plugin::Session' => 1.0,
-        'CGI::Session::Flash'               => 0,
+        'CGI::Session::Flash'               => 0.02,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'CGI-Application-Plugin-Flash-*' },

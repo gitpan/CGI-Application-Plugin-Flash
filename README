@@ -1,10 +1,10 @@
 CGI-Application-Plugin-Flash
 
-This CGI::Application plugin implements a Flash object.  A flash is session
-data with a specified life cycle.  When you put something into the flash it
-stays then until the end of the next request.  This allows you to use it for
-storing messages that can be accessed after a redirect, but then are
-automatically cleaned up.
+This CGI::Application plugin wraps the CGI::Session::Flash module to
+implement a Flash object.  A flash is session data with a specific life cycle.
+When you put something into the flash it stays then until the end of the next
+request.  This allows you to use it for storing messages that can be accessed
+after a redirect, but then are automatically cleaned up.
 
 
 INSTALLATION

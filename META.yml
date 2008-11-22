@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                CGI-Application-Plugin-Flash
-version:             0.01
-abstract:            Flash ...
+version:             0.02
+abstract:            Session Flash plugin for CGI::Application
 license:             ~
 author:              
     - Bradley C Bailey <cap-flash@brad.memoryleak.org>
@@ -10,7 +10,7 @@ distribution_type:   module
 requires:     
     CGI::Application:              4
     CGI::Application::Plugin::Session: 1
-    CGI::Session::Flash:           0
+    CGI::Session::Flash:           0.02
     Test::More:                    0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
